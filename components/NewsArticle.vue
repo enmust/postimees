@@ -2,7 +2,7 @@
   <div class="news-article">
     <v-img
       :src="landscapeLarge"
-      height="calc(100vh - 56px)"
+      height="calc(90vh - 56px)"
       min-height="800px"
       class="article__image article__image--gradient cursor-pointer"
       gradient="0deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.18039) 100%"
