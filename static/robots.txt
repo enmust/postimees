@@ -1,0 +1,50 @@
+User-agent: *
+Disallow: /search*
+Disallow: /latest/*
+Disallow: /*/print/*
+Disallow: /print/*
+Disallow: /*/com/*
+Disallow: /mobile/*
+Disallow: /rest/*
+Disallow: /feed/*
+Disallow: /weather/*
+Disallow: /?schedule=*
+Disallow: /author/*
+
+User-agent: bingbot
+User-agent: msnbot
+User-agent: msnbot-media
+User-agent: YandexBot
+User-agent: AhrefsBot
+Disallow: /search*
+Disallow: /latest/*
+Disallow: /*/print/*
+Disallow: /print/*
+Disallow: /*/com/*
+Disallow: /mobile/*
+Disallow: /?schedule=*
+Disallow: /rest/*
+Disallow: /feed/*
+Disallow: /weather/*
+Disallow: /author/*
+Crawl-delay: 60
+
+User-agent: Mediapartners-Google
+Disallow:
+
+User-agent: discobot
+User-agent: dotbot
+User-agent: yacybot
+User-agent: PetalBot
+User-agent: SemrushBot
+User-agent: grapeshot
+User-agent: Barkrowler
+Disallow: *
+
+User-agent: Slurp
+Crawl-delay: 4
+
+User-agent: FemtosearchBot
+Disallow: *
+
+Sitemap: https://www.postimees.ee/sitemap

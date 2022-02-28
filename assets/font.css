@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Tabac Sans';
+    src: local('Tabac Sans'), local('TabacSans'),
+        url('~/assets/fonts/TabacSans.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tabac Sans';
+    src: local('Tabac Sans Light'), local('TabacSansLight'),
+        url('~/assets/fonts/TabacSansLight.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tabac Sans';
+    src: local('Tabac Sans Bold'), local('TabacSans-Bold'),
+        url('~/assets/fonts/TabacSans-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Tabac Sans';
+    src: local('Tabac Sans SemiBold'), local('TabacSansSemiBold'),
+        url('~/assets/fonts/TabacSansSemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}

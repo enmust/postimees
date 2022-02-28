@@ -1,0 +1,56 @@
+$font-family: 'Tabac Sans';
+
+.v-application {
+  [class*='text-'] {
+    color: #36405a;
+    font-family: $font-family, sans-serif !important;
+  }
+  font-family: $font-family, sans-serif !important;
+}
+
+.article__title {
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 60px;
+  color: white !important;
+  width: 100%;
+}
+
+.article__title-xs {
+  font-size: 40px;
+  line-height: 56px;
+}
+
+.article__title-md {
+  font-size: 60px;
+  line-height: 72px;
+}
+
+// As written in the spec but in some cases 100px is too much
+.article__title-xl {
+  font-size: 100px;
+  line-height: 120px;
+}
+
+.padding-odd {
+  padding-left: 130px;
+  padding-right: 225px;
+  padding-bottom: 142px;
+}
+
+.padding-even {
+  padding-left: 225px;
+  padding-right: 130px;
+  padding-bottom: 65px;
+}
+
+.padding-md {
+  padding: 0 80px 92px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+
+
